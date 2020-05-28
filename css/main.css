@@ -1,2 +1,125 @@
+body {
+  background-color: black;
+}
 
-/*  Put your CSS Here */
+img {
+  width: 400px;
+  height: 440px;
+  position: relative;
+  bottom: 99px;
+}
+
+h1 {
+  position: absolute;
+  top: 365px;
+  left: 20px;
+}
+
+input {
+  background-color: black;
+  font-size: 25px;
+  color: white;
+}
+
+.name {
+  position: absolute;
+  top: 430px;
+  left: 19px;
+  border-bottom: 1px solid white;
+}
+
+.date {
+  position: absolute;
+  top: 250px;
+  left: 10px;
+  border-bottom: 1px solid white;
+}
+
+.Experience {
+  position: absolute;
+  top: 285px;
+  left: 10px;
+  border-bottom: 1px solid white;
+}
+
+.Email {
+  position: absolute;
+  top: 310px;
+  left: 10px;
+  border-bottom: 1px solid white;
+}
+
+.Phone {
+  position: absolute;
+  top: 340px;
+  left: 10px;
+  border-bottom: 1px solid white;
+}
+
+.submit {
+  position: absolute;
+  top: 750px;
+  left: 150px;
+}
+
+@media (min-width: 650px) {
+  img {
+    width: 400px;
+    height: 650px;
+    position: absolute;
+    top: 0px;
+  }
+
+  h1 {
+    position: absolute;
+    top: 35px;
+    left: 530px;
+  }
+
+  input {
+    background-color: black;
+    font-size: 25px;
+    color: white;
+  }
+
+  .name {
+    position: absolute;
+    top: 105px;
+    left: 529px;
+    border-bottom: 1px solid white;
+  }
+
+  .date {
+    position: absolute;
+    top: 95px;
+    left: 265px;
+    border-bottom: 1px solid white;
+  }
+
+  .Experience {
+    position: absolute;
+    top: 136px;
+    left: 266px;
+    border-bottom: 1px solid white;
+  }
+
+  .Email {
+    position: absolute;
+    top: 160px;
+    left: 265px;
+    border-bottom: 1px solid white;
+  }
+
+  .Phone {
+    position: absolute;
+    top: 195px;
+    left: 265px;
+    border-bottom: 1px solid white;
+  }
+
+  .submit {
+    position: absolute;
+    top: 455px;
+    left: 645px;
+  }
+}
